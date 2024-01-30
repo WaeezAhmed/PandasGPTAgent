@@ -23,7 +23,7 @@ def main():
     openai_key = st.sidebar.text_input('Open AI API KEY', key="openai_key", type="password")
     if st.sidebar.button('Update Key'):
         setOpenAIKey(openai_key)
-    st.sidebar.title('Pandas AI Agent 🤖 Demo')
+    st.sidebar.title('Pandas AII Agent 🤖 Demo')
     st.sidebar.write("""
             ###### This project uses LangChain library utilizing Pandas AI and OpenAI to act as a Data Analyst AI assistant.
             ###### All :red[conversations are stored] in a JSON file including the question, steps to answer (including code written by AI), and answer for tracking and monitoring of the tool usage.
